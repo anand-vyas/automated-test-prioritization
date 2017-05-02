@@ -3,7 +3,7 @@
 This is a project taken from https://github.com/JodaOrg/joda-time for testing our test prioritization tool. 
 
 Please Note:
-The prioritized list of test classes used to create the test suites in this project have been derived from output files created in this project by me: https://github.com/anand-vyas/creating-prioritized-testclass-list
+The prioritized list of test classes used to create the test suites in this project have been derived from output files (prioritized-class-list.txt and additive-class-list.txt) created in this project by me: https://github.com/anand-vyas/creating-prioritized-testclass-list
 
 ## To test this project please follow these steps:
 
@@ -21,9 +21,9 @@ The prioritized list of test classes used to create the test suites in this proj
 
 The following files have been added by me to this project that makes the above execution possible:
 
-- prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. "pom.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time
+- prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. This prioritized list of test classes as per total strategy has been derived from the file "prioritized-class-list.txt" which was created as an output file in https://github.com/anand-vyas/creating-prioritized-testclass-list project by me.  "pom.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time.
 
-- prioritizationAdditional.java: Contains a test suite which contains the test classes in order of prioritization determined by the Additonal Strategy. "pom-additional.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
+- prioritizationAdditional.java: Contains a test suite which contains the test classes in order of prioritization determined by the Additonal Strategy. This prioritized list of test classes as per additional strategy has been derived from the file "additive-class-list.txt" which was created as an output file in https://github.com/anand-vyas/creating-prioritized-testclass-list project by me. "pom-additional.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
 
 - JUnitExecutionListener.java: Customized JUnit Listener. It contains the code which tracks the time taken to detect each failure from the beginning to test execution. 
 
