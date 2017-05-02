@@ -15,15 +15,15 @@ To test this project please follow these steps:
 Please Note:
 The following files have been added by me to this project that makes the above execution possible:
 
-prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. "pom.xml" triggers execution of test classes as per this order. 
-Location of this file: src/test/java/org/joda/time 
+- prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. "pom.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
 
-prioritizationAdditional.java: Contains a test suite which contains the test classes in order of prioritization determined by the Additonal Strategy. "pom-additional.xml" triggers execution of test classes as per this order.
-Location of this file: src/test/java/org/joda/time 
+- prioritizationAdditional.java: Contains a test suite which contains the test classes in order of prioritization determined by the Additonal Strategy. "pom-additional.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
 
-JUnitExecutionListener.java: Customized JUnit Listener. It contains the code which tracks the time taken to detect each failure from the beginning to test execution. 
+- JUnitExecutionListener.java: Customized JUnit Listener. It contains the code which tracks the time taken to detect each failure from the beginning to test execution. 
 
-pom.xml: Used for executing the test classes in prioritization order of Total Strategy and including the JUnit listener. 
-pom-additional.xml: Used for executing the test classes in prioritization order of Additional Strategy and including the JUnit listener.
-pom-original.xml: Used for executing the test classes in original order and including the JUnit listener. 
+- pom.xml: Used for executing the test classes in prioritization order of Total Strategy and including the JUnit listener. 
+
+- pom-additional.xml: Used for executing the test classes in prioritization order of Additional Strategy and including the JUnit listener.
+
+- pom-original.xml: Used for executing the test classes in original order and including the JUnit listener. 
 
