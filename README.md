@@ -16,8 +16,7 @@ The prioritized list of test classes used to create the test suites in this proj
 4. You could introduce a bug in the project and re-run the commands given above. If there is/are test case failure(s), the console window will show the test case failures and the time taken to detect each failure from the time when the first test began executing. 
 5. The time taken to detect the first test failure shows how much time it takes each strategy to detect a bug. 
 
-
-
+### Additional information
 
 The following files have been added by me to this project that makes the above execution possible:
 
