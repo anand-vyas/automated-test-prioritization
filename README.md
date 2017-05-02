@@ -13,9 +13,12 @@ To test this project please follow these steps:
 
 
 Please Note:
+The prioritized list of test classes used to create the test suites have been derived from files created in this project by me:
+ https://github.com/anand-vyas/creating-prioritized-testclass-list
+
 The following files have been added by me to this project that makes the above execution possible:
 
-- prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. "pom.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
+- prioritization.java: Contains a test suite which contains the test classes in order of prioritization determined by the Total Strategy. "pom.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time
 
 - prioritizationAdditional.java: Contains a test suite which contains the test classes in order of prioritization determined by the Additonal Strategy. "pom-additional.xml" triggers execution of test classes as per this order. Location of this file: src/test/java/org/joda/time 
 
