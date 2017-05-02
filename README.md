@@ -1,6 +1,11 @@
+# Test prioritization using Total and Additional strategies
+
 This is a project taken from https://github.com/JodaOrg/joda-time for testing our test prioritization tool. 
 
-To test this project please follow these steps:
+Please Note:
+The prioritized list of test classes used to create the test suites in this project have been derived from output files created in this project by me: https://github.com/anand-vyas/creating-prioritized-testclass-list
+
+## To test this project please follow these steps:
 
 1. Download the project to your local directory. 
 2. Open your terminal window and using the "cd" command change your directory to this folder. 
@@ -12,9 +17,7 @@ To test this project please follow these steps:
 5. The time taken to detect the first test failure shows how much time it takes each strategy to detect a bug. 
 
 
-Please Note:
-The prioritized list of test classes used to create the test suites have been derived from files created in this project by me:
- https://github.com/anand-vyas/creating-prioritized-testclass-list
+
 
 The following files have been added by me to this project that makes the above execution possible:
 
